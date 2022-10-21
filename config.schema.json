@@ -1,5 +1,5 @@
 {
-  "pluginAlias": "ExampleHomebridgePlugin",
+  "pluginAlias": "OilPalHomebridgePlugin",
   "pluginType": "platform",
   "singular": true,
   "schema": {

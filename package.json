@@ -1,16 +1,16 @@
 {
   "private": true,
-  "displayName": "Plugin Name",
-  "name": "homebridge-plugin-name",
+  "displayName": "OilPal Plugin",
+  "name": "homebridge-oilpal",
   "version": "1.0.0",
-  "description": "A short description about what your plugin does.",
+  "description": "Screen scrapes oil level from OilPal web UI and exposes to homekit.",
   "license": "Apache-2.0",
   "repository": {
     "type": "git",
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME.git"
+    "url": "https://github.com/scoobeesnac/homebridge-oilpal"
   },
   "bugs": {
-    "url": "https://github.com/USERNAME/GITHUB_PROJECT_NAME/issues"
+    "url": "https://github.com/scoobeesnac/homebridge-oilpal/issues"
   },
   "engines": {
     "node": ">=14.18.1",
@@ -24,7 +24,9 @@
     "prepublishOnly": "npm run lint && npm run build"
   },
   "keywords": [
-    "homebridge-plugin"
+    "homebridge-plugin",
+    "oilpal",
+    "oil"
   ],
   "dependencies": {},
   "devDependencies": {
